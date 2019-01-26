@@ -1,0 +1,15 @@
+manage-docker:
+  :ip_address: 10.0.0.28
+  :roles:
+    - print
+    - dns
+    - docker
+  :server_id: 101
+  :test_vars: s-arima002_vars
+#s-arima003:
+#  :ip_address: 10.0.0.10
+#  :roles:
+#    - host
+#    - test2
+#  :server_id: 102
+#  :test_vars: call_vars
